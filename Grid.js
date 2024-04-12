@@ -51,6 +51,8 @@ function createCellElements(gridElement){
         cell.classList.add('cell')
         cells.push(cell)
         gridElement.append(cell)
+        
     }
     return cells
+   
 }
